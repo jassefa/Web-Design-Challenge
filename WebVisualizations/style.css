@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: steelblue;
+  font-family: sans-serif;
+}
+
+.logo a{
+  color: aliceblue;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 32%;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color: aliceblue;
+  font-weight: bold;
+}
+.page-title {
+  color: steelblue;
+  font-size: large;
+}
+#plot-2 {
+  background-image: image("Resources/Fig2.png");
+}
