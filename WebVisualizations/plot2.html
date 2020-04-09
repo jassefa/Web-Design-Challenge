@@ -4,40 +4,42 @@
 
   <title>Landing Page</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <nav>
-        <div class=logo>
-            <a href="index.html" rel="stylesheet">Latitude</a>
-        </div>
-            <ul class="nav-links">
-                <li class="dropdown">
-                    <a href="plots.html" rel="stylesheet" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> 
-                        <span class="nav-label">Plot</span> 
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                            <li><a href="plot1.html">Plot 1</a></li>
-                            <li><a href="plot2.html">Plot 2</a></li>
-                            <li><a href="plot3.html">Plot 3</a></li>
-                            <li><a href="plot4.html">Plot 4</a></li>
-                    </ul>
+    <!--Navigation Bar --> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand d-inline p-2 ml-5 bg-info text-white mb-0 pb-0" href="./index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="plots.html" rel="stylesheet" id="navbarDropdown" role="button" data-toggle="dropdown" 
+                     aria-haspopup="true" aria-expanded="false">Plot</a> 
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="plot1.html">Temperature Plot</a>
+                        <a class="dropdown-item" href="plot2.html">Humidity Plot</a>
+                        <a class="dropdown-item" href="plot3.html">Cloudiness Plot</a>
+                        <a class="dropdown-item" href="plot3.html">Windspeed Plot</a>
+                      </div>
                 </li>
-                <li>
-                    <a href="comparison.html" rel="stylesheet">Comparison</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comparison.html">Comparison</a>
                 </li>
-                <li>
-                    <a href="cities_table.html" rel="stylesheet">Data</a>
+                <li class="nav item">
+                    <a class="nav-link" href="cities_table.html">Data</a>
                 </li>
-            </ul>
+            </ul>  
+        </div> 
     </nav>
+
     <div>
         <p>
             <h1 class="page-title">Plot 2</h1>

@@ -3,34 +3,19 @@
   padding: 0px;
   box-sizing: border-box;
 }
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: steelblue;
-  font-family: sans-serif;
-}
 
-.logo a{
-  color: aliceblue;
-  font-size: xx-large;
-  font-weight: bolder;
+.nav-link {
+  color: aqua;
 }
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 32%;
-}
-.nav-links li{
+.nav-link li{
   list-style: none;
 }
-.nav-links a{
+.nav-link a{
   color: aliceblue;
   font-weight: bold;
 }
 .page-title {
-  color: steelblue;
+  color: rgb(12, 146, 146);
   font-size: large;
 }
 #plot-2 {
