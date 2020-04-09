@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
+} 
 
 .nav-link {
   color: aqua;
@@ -16,8 +16,5 @@
 }
 .page-title {
   color: rgb(12, 146, 146);
-  font-size: large;
-}
-#plot-2 {
-  background-image: image("Resources/Fig2.png");
+  font-size: medium;
 }

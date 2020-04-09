@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <!--add page tag-->
-  <title>Comparison Page</title>
+  <title>Temp</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,14 +45,53 @@
             </div> 
         </div>
     </nav>
+
+    <!--Temp Page info --> 
+    
     <div class="container content">
-        <h1>Comparison</h1>
-            <p>Click any plot to get indept analysis</p>
-            <a href="temp_plot.html"><img src="Resources/Temperature Plot.png" />
-            <a href="humdity_plot.html"><img src="Resources/Humidity Plot.png" />
-            <a href="cloud_plot.html"><img src="Resources/Cloudiness Plot.png" />
-            <a href="wind_plot.html"><img src="Resources/Windspeed Plot.png" />
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h3>Max Temperature</h3>
+                    <hr>
+                    <img src="Resources/Temperature Plot.png" width="100%" alt="temperature">
+                    <br>
+                    <p>As expected, the weather becomes significantaly warmer as one approaches the equator (Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                </div>
+            </div>
+
+            <!--visualizations container adjustments-->
+
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="temp_plot.html"><img src="Resources/Temperature Plot.png" width="100%" alt="temprature"></a>
+                        </div>
+                       
+                        <div class="col-3 col-md-6">
+                            <a href="humdity_plot.html"><img src="Resources/Humidity Plot.png" width="100%" alt="humidity"></a>
+                        </div>
+                    
+                        <div class="col-3 col-md-6">
+                            <a href="cloud_plot.html"><img class="pic" src="Resources/Cloudiness Plot.png" width="100%" alt="cloudiness"></a>
+                        </div>
+                        
+                        <div class="col-3 col-md-6">
+                            <a href="wind_plot.html"><img src="Resources/Windspeed Plot.png" width="100%" alt="windspeed"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>    
     </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2019
+        </div>      
+    </footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
