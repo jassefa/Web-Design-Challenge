@@ -1,20 +1,32 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-} 
+body{
+  color: darkslategray;
+}
 
-.nav-link {
-  color: aqua;
+.navbar-brand{
+  color: white; 
+  margin-left: 20px; 
+  padding: inherit; 
+  font-weight: bold; 
 }
-.nav-link li{
-  list-style: none;
-}
-.nav-link a{
-  color: aliceblue;
+
+.navbar-expand-lg{
+  background-color: #17a2b8 !important;
+  }
+
+
+.navbar div{
+  margin: inherit; 
+  background-color: white;  
   font-weight: bold;
+  
 }
-.page-title {
-  color: rgb(12, 146, 146);
-  font-size: medium;
-}
+
+footer {
+  background-color: rgba(4, 22, 21, 0.691); 
+  border-top-style: solid; 
+  border-top-width: 0px; 
+  color: white; 
+  font-size: 10px; 
+  width: 100%;
+  padding-top: 5px; 
+  }
